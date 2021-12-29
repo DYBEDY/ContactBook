@@ -37,8 +37,10 @@ class ContactListViewController: UITableViewController {
         
         if indexPath.row == 0 {
             content.text = person.number
+            content.image = UIImage(systemName: "phone")
         } else {
             content.text = person.email
+            content.image = UIImage(systemName: "tray")
         }
         
         cell.contentConfiguration = content
