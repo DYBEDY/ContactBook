@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063FA4F4277CAA59002A6F3A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063FA4F3277CAA59002A6F3A /* DetailsViewController.swift */; };
 		06D63F0C277B4309002AB568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D63F0B277B4309002AB568 /* AppDelegate.swift */; };
 		06D63F0E277B4309002AB568 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D63F0D277B4309002AB568 /* SceneDelegate.swift */; };
 		06D63F13277B4309002AB568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D63F11277B4309002AB568 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		063FA4F3277CAA59002A6F3A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		06D63F08277B4309002AB568 /* ContactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D63F0B277B4309002AB568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06D63F0D277B4309002AB568 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				06D63F1F277B468D002AB568 /* PersonsListViewController.swift */,
 				06D63F21277B4920002AB568 /* ContactListViewController.swift */,
+				063FA4F3277CAA59002A6F3A /* DetailsViewController.swift */,
 				06D63F31277B75FC002AB568 /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
@@ -203,6 +206,7 @@
 				06D63F22277B4920002AB568 /* ContactListViewController.swift in Sources */,
 				06D63F2F277B546B002AB568 /* DataManager.swift in Sources */,
 				06D63F32277B75FC002AB568 /* TabBarViewController.swift in Sources */,
+				063FA4F4277CAA59002A6F3A /* DetailsViewController.swift in Sources */,
 				06D63F20277B468D002AB568 /* PersonsListViewController.swift in Sources */,
 				06D63F0E277B4309002AB568 /* SceneDelegate.swift in Sources */,
 			);

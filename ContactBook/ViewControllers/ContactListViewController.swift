@@ -19,8 +19,7 @@ class ContactListViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        
-        return 0
+        0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -32,6 +31,10 @@ class ContactListViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "moreInfo", for: indexPath)
 
         
+        let person = persons[indexPath.row]
+        var content = cell.defaultContentConfiguration()
+        content.text = ("\(person.name) \(person.surname)")
+        cell.contentConfiguration = content
 
         return cell
     }

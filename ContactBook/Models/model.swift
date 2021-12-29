@@ -13,16 +13,13 @@ struct Person {
     let email: String
     var number: String
     
-    var fullName:String {
-        ("\(name) \(surname)")
-    }
 }
     
 extension Person {
    static func getPersons() -> [Person] {
         var persons: [Person] = []
 
-        for _ in 0...DataManager.shared.names.count {
+        for _ in 0..<DataManager.shared.names.count {
             let person = Person(name: DataManager.shared.names.randomElement() ?? "",
                                 surname: DataManager.shared.surnames.randomElement() ?? "",
                                 email: DataManager.shared.emails.randomElement() ?? "",
@@ -35,7 +32,6 @@ extension Person {
 
 
     }
-
 
 
 
