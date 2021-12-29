@@ -10,7 +10,7 @@ import Foundation
 class DataManager {
     static let shared = DataManager()
     
-    let names = [
+    var names = [
         "Чаек", "Пирожок", " Кисель",
         "Гарри", "Рон", "Шрэк",
         "Артур", "Игрок", "Старичок", "Пучок"
@@ -23,15 +23,15 @@ class DataManager {
     ]
     
     let emails = [
-    "chai@gooele.com", "pirog@mail.ru", "kiselek@yandex.ru",
+    "chai@google.com", "pirog@mail.ru", "kiselek@yandex.ru",
     "potter666@hogvarts.su", "ronny@mail.ru", "shrek@boloto.com",
     "kingartur@king.com", "player1@google.com", "star@star.ru", "pych@mail.ru"
     ]
     
     var numbers = [
-    "7911102", "7901111", "7981111",
-    "7981000", "7999111", "7999121",
-    "7909009", "7101101", "8911111", "8921000"
+    "+79111230411", "+79013780909", "+79311234554",
+    "+79311234664", "+79811234554", "+79311233554",
+    "+79311234510", "+79311234545", "+79311834554", "+79991234554"
     ]
     
     private init() {}

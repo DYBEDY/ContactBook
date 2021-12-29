@@ -20,10 +20,10 @@ extension Person {
         var persons: [Person] = []
 
         for _ in 0..<DataManager.shared.names.count {
-            let person = Person(name: DataManager.shared.names.randomElement() ?? "",
-                                surname: DataManager.shared.surnames.randomElement() ?? "",
-                                email: DataManager.shared.emails.randomElement() ?? "",
-                                number: DataManager.shared.numbers.randomElement() ?? "")
+            let person = Person(name: "\(DataManager.shared.names.randomElement() ?? "")",
+                                surname: "\(DataManager.shared.surnames.randomElement() ?? "")",
+                                email: "\(DataManager.shared.emails.randomElement() ?? "")",
+                                number: "\(DataManager.shared.numbers.randomElement() ?? "")")
             persons.append(person)
         }
 

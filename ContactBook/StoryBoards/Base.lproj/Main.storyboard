@@ -126,11 +126,11 @@
             </objects>
             <point key="canvasLocation" x="1113.0434782608697" y="1105.5803571428571"/>
         </scene>
-        <!--Item-->
+        <!--Favorites-->
         <scene sceneID="r4f-wC-g4b">
             <objects>
                 <navigationController id="dWj-6o-QYf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="CW0-tW-lUZ"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="person.crop.circle.fill" catalog="system" id="CW0-tW-lUZ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="yAF-a0-ftE">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -171,12 +171,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="moreInfo" id="7FI-WV-yck">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="moreInfo" textLabel="NaI-7x-08A" style="IBUITableViewCellStyleDefault" id="7FI-WV-yck">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7FI-WV-yck" id="Nti-74-KcT">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NaI-7x-08A">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -191,11 +200,11 @@
             </objects>
             <point key="canvasLocation" x="2107" y="-279"/>
         </scene>
-        <!--Item-->
+        <!--Contacts-->
         <scene sceneID="c75-wH-3RP">
             <objects>
                 <navigationController id="hPv-g2-7Rm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="EhS-ab-xMJ"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="phone" catalog="system" id="EhS-ab-xMJ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Cvt-Sd-Jhu">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -210,6 +219,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
